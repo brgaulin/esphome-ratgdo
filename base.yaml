@@ -27,7 +27,6 @@ api:
   id: ${id_prefix}_api
   services:
   - service: wipe_devices_from_gdo_memory
-    id: ${id_prefix}_api_wipe_devices
     variables:
       devices_to_wipe: string
     then:
